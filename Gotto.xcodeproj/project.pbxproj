@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1323E3C01DB0EBBD00D31488 /* ItineraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3BF1DB0EBBD00D31488 /* ItineraryCollectionViewCell.swift */; };
+		1323E3C21DB5DB1500D31488 /* ItineraryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3C11DB5DB1500D31488 /* ItineraryDetailViewController.swift */; };
+		1323E3C41DB6288800D31488 /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3C31DB6288800D31488 /* SetLocationViewController.swift */; };
+		1323E3D71DB7617400D31488 /* ListProvinceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3D61DB7617400D31488 /* ListProvinceViewController.swift */; };
+		1323E3D91DB761D500D31488 /* ListProvinceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3D81DB761D500D31488 /* ListProvinceTableViewCell.swift */; };
+		1323E3DC1DB7646400D31488 /* ListVineyardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3DB1DB7646400D31488 /* ListVineyardViewController.swift */; };
+		1323E3DE1DB766A200D31488 /* ListRegionViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3DD1DB766A200D31488 /* ListRegionViewController+DataSource.swift */; };
+		1323E3E01DB766DD00D31488 /* ListRegionViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3DF1DB766DD00D31488 /* ListRegionViewController+Delegate.swift */; };
+		1323E3E21DB7674500D31488 /* VerifyCodeViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3E11DB7674500D31488 /* VerifyCodeViewController+Delegate.swift */; };
+		1323E3E41DB7678500D31488 /* VerifyNumberViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3E31DB7678500D31488 /* VerifyNumberViewController+Delegate.swift */; };
+		1323E3E61DB767D300D31488 /* HomeViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3E51DB767D300D31488 /* HomeViewController+DataSource.swift */; };
+		1323E3E81DB7680400D31488 /* HomeViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3E71DB7680400D31488 /* HomeViewController+Delegate.swift */; };
+		1323E3EA1DB7687E00D31488 /* ItineraryViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3E91DB7687E00D31488 /* ItineraryViewController+DataSource.swift */; };
+		1323E3EC1DB7688C00D31488 /* ItineraryViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3EB1DB7688C00D31488 /* ItineraryViewController+Delegate.swift */; };
+		1323E3EE1DB768D800D31488 /* SetLocationViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3ED1DB768D800D31488 /* SetLocationViewController+Delegate.swift */; };
+		1323E3F01DB76BAA00D31488 /* ListProvinceViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3EF1DB76BAA00D31488 /* ListProvinceViewController+DataSource.swift */; };
+		1323E3F21DB76BBB00D31488 /* ListProvinceViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3F11DB76BBB00D31488 /* ListProvinceViewController+Delegate.swift */; };
+		1323E3F41DB7768900D31488 /* ListVineyardViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3F31DB7768900D31488 /* ListVineyardViewController+DataSource.swift */; };
+		1323E3F61DB776A000D31488 /* ListVineyardViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3F51DB776A000D31488 /* ListVineyardViewController+Delegate.swift */; };
+		1323E3F81DB7795C00D31488 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3F71DB7795C00D31488 /* RatingControl.swift */; };
+		1323E3FA1DB7868200D31488 /* ListVineyardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3F91DB7868200D31488 /* ListVineyardCollectionViewCell.swift */; };
+		1323E3FC1DB8C64F00D31488 /* LabelPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3FB1DB8C64F00D31488 /* LabelPrice.swift */; };
+		1323E3FF1DB8F98700D31488 /* FilterVineyardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E3FE1DB8F98700D31488 /* FilterVineyardViewController.swift */; };
+		1324B1731DA2362800568FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1721DA2362800568FE5 /* AppDelegate.swift */; };
+		1324B1781DA2362900568FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1324B1761DA2362900568FE5 /* Main.storyboard */; };
+		1324B17B1DA2362900568FE5 /* Gotto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1791DA2362900568FE5 /* Gotto.xcdatamodeld */; };
+		1324B17D1DA2362900568FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1324B17C1DA2362900568FE5 /* Assets.xcassets */; };
+		1324B1801DA2362900568FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1324B17E1DA2362900568FE5 /* LaunchScreen.storyboard */; };
+		1324B18B1DA2362900568FE5 /* GottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B18A1DA2362900568FE5 /* GottoTests.swift */; };
+		1324B1961DA2362900568FE5 /* GottoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1951DA2362900568FE5 /* GottoUITests.swift */; };
+		1324B1B21DA2416900568FE5 /* BoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1B11DA2416900568FE5 /* BoardingViewController.swift */; };
+		1324B1B41DA245D900568FE5 /* GottoEclipseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1B31DA245D900568FE5 /* GottoEclipseButton.swift */; };
+		1324B1B91DA2602500568FE5 /* ChoiceRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1B81DA2602500568FE5 /* ChoiceRegistrationViewController.swift */; };
+		1324B1BB1DA261E500568FE5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1BA1DA261E500568FE5 /* UIView.swift */; };
+		1324B1BD1DA2833B00568FE5 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1BC1DA2833B00568FE5 /* UIViewController.swift */; };
+		1324B1BF1DA35D0F00568FE5 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1BE1DA35D0F00568FE5 /* CALayer.swift */; };
+		1324B1C11DA3977500568FE5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1C01DA3977500568FE5 /* SignUpViewController.swift */; };
+		1324B1C71DA3BA2900568FE5 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1C61DA3BA2900568FE5 /* UITextField.swift */; };
+		1324B1CC1DA4A4F000568FE5 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1CB1DA4A4F000568FE5 /* const.swift */; };
+		1324B1CE1DA4A58A00568FE5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1CD1DA4A58A00568FE5 /* UIColor.swift */; };
+		1324B1D31DA4B79F00568FE5 /* TextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B1D21DA4B79F00568FE5 /* TextFieldWithIcon.swift */; };
+		132E77CA1DAB982D00B1D9A9 /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132E77C91DAB982D00B1D9A9 /* App.storyboard */; };
+		133B128F1DAF2FE8003422CC /* ItineraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B128E1DAF2FE8003422CC /* ItineraryViewController.swift */; };
+		133B12941DAF6BCD003422CC /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B12931DAF6BCD003422CC /* ItineraryModel.swift */; };
+		135085271DA7AF050068FADD /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135085261DA7AF050068FADD /* Flags.xcassets */; };
+		1350852B1DA7AFBA0068FADD /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135085281DA7AFBA0068FADD /* CountryPicker.swift */; };
+		1350852C1DA7AFBA0068FADD /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135085291DA7AFBA0068FADD /* CountryView.swift */; };
+		1350852D1DA7AFBA0068FADD /* CountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1350852A1DA7AFBA0068FADD /* CountryView.xib */; };
+		1368A0501DAB42F20085C6F2 /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368A04F1DAB42F20085C6F2 /* VerifyCodeViewController.swift */; };
+		1368A0571DAB71520085C6F2 /* VerifyCodeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368A0561DAB71520085C6F2 /* VerifyCodeText.swift */; };
+		139209B61DA66A190071FC38 /* VerifyNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139209B51DA66A190071FC38 /* VerifyNumberViewController.swift */; };
+		139209B81DA66E8D0071FC38 /* GottoLabelWithLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139209B71DA66E8D0071FC38 /* GottoLabelWithLineSpacing.swift */; };
+		139209BC1DA75E5C0071FC38 /* ViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139209BB1DA75E5C0071FC38 /* ViewWithBorder.swift */; };
+		1397B5721DAB9E6E008359D1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B5711DAB9E6E008359D1 /* TabBarViewController.swift */; };
+		1397B5741DAB9E9B008359D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B5731DAB9E9B008359D1 /* HomeViewController.swift */; };
+		1397B5761DAB9EAA008359D1 /* AroundMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B5751DAB9EAA008359D1 /* AroundMeViewController.swift */; };
+		1397B5781DABB6BF008359D1 /* ListRegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B5771DABB6BF008359D1 /* ListRegionViewController.swift */; };
+		1397B57B1DACC3D8008359D1 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B57A1DACC3D8008359D1 /* HomeCollectionViewCell.swift */; };
+		1397B57E1DACF4F9008359D1 /* ListRegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B57D1DACF4F9008359D1 /* ListRegionTableViewCell.swift */; };
+		1397B5821DADDE0E008359D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B5811DADDE0E008359D1 /* ProfileViewController.swift */; };
+		1397B5841DAE13E3008359D1 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397B5831DAE13E3008359D1 /* MyProfileViewController.swift */; };
+		1397E7611DA5137C007D371C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397E7601DA5137C007D371C /* SignInViewController.swift */; };
+		1397E7721DA5F791007D371C /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E7671DA5F685007D371C /* GothamRounded-Bold.otf */; };
+		1397E7731DA5F791007D371C /* GothamRounded-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E7681DA5F685007D371C /* GothamRounded-BoldItalic.otf */; };
+		1397E7741DA5F791007D371C /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E7691DA5F685007D371C /* GothamRounded-Book.otf */; };
+		1397E7751DA5F791007D371C /* GothamRounded-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E76A1DA5F685007D371C /* GothamRounded-BookItalic.otf */; };
+		1397E7761DA5F791007D371C /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E76B1DA5F685007D371C /* GothamRounded-Light.otf */; };
+		1397E7771DA5F791007D371C /* GothamRounded-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E76C1DA5F685007D371C /* GothamRounded-LightItalic.otf */; };
+		1397E7781DA5F791007D371C /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E76D1DA5F685007D371C /* GothamRounded-Medium.otf */; };
+		1397E7791DA5F791007D371C /* GothamRounded-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1397E76E1DA5F685007D371C /* GothamRounded-MediumItalic.otf */; };
+		13A539CB1DA639050032AE13 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A539CA1DA639050032AE13 /* Util.swift */; };
+		34F1AF414A3F5B566A22EAFE /* Pods_Gotto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEE1B12340B899960DF75A4 /* Pods_Gotto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1324B1871DA2362900568FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1324B1671DA2362800568FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1324B16E1DA2362800568FE5;
+			remoteInfo = Gotto;
+		};
+		1324B1921DA2362900568FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1324B1671DA2362800568FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1324B16E1DA2362800568FE5;
+			remoteInfo = Gotto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12BB9BF025CDD9281196E76A /* Pods-Gotto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gotto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gotto/Pods-Gotto.release.xcconfig"; sourceTree = "<group>"; };
+		1323E3BF1DB0EBBD00D31488 /* ItineraryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		1323E3C11DB5DB1500D31488 /* ItineraryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryDetailViewController.swift; sourceTree = "<group>"; };
+		1323E3C31DB6288800D31488 /* SetLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
+		1323E3D61DB7617400D31488 /* ListProvinceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListProvinceViewController.swift; sourceTree = "<group>"; };
+		1323E3D81DB761D500D31488 /* ListProvinceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListProvinceTableViewCell.swift; sourceTree = "<group>"; };
+		1323E3DB1DB7646400D31488 /* ListVineyardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVineyardViewController.swift; sourceTree = "<group>"; };
+		1323E3DD1DB766A200D31488 /* ListRegionViewController+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListRegionViewController+DataSource.swift"; sourceTree = "<group>"; };
+		1323E3DF1DB766DD00D31488 /* ListRegionViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListRegionViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3E11DB7674500D31488 /* VerifyCodeViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerifyCodeViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3E31DB7678500D31488 /* VerifyNumberViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerifyNumberViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3E51DB767D300D31488 /* HomeViewController+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+DataSource.swift"; sourceTree = "<group>"; };
+		1323E3E71DB7680400D31488 /* HomeViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3E91DB7687E00D31488 /* ItineraryViewController+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItineraryViewController+DataSource.swift"; sourceTree = "<group>"; };
+		1323E3EB1DB7688C00D31488 /* ItineraryViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItineraryViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3ED1DB768D800D31488 /* SetLocationViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SetLocationViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3EF1DB76BAA00D31488 /* ListProvinceViewController+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListProvinceViewController+DataSource.swift"; sourceTree = "<group>"; };
+		1323E3F11DB76BBB00D31488 /* ListProvinceViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListProvinceViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3F31DB7768900D31488 /* ListVineyardViewController+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListVineyardViewController+DataSource.swift"; sourceTree = "<group>"; };
+		1323E3F51DB776A000D31488 /* ListVineyardViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListVineyardViewController+Delegate.swift"; sourceTree = "<group>"; };
+		1323E3F71DB7795C00D31488 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		1323E3F91DB7868200D31488 /* ListVineyardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVineyardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1323E3FB1DB8C64F00D31488 /* LabelPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPrice.swift; sourceTree = "<group>"; };
+		1323E3FE1DB8F98700D31488 /* FilterVineyardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVineyardViewController.swift; sourceTree = "<group>"; };
+		1324B16F1DA2362800568FE5 /* Gotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324B1721DA2362800568FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1324B1771DA2362900568FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1324B17A1DA2362900568FE5 /* Gotto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gotto.xcdatamodel; sourceTree = "<group>"; };
+		1324B17C1DA2362900568FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1324B17F1DA2362900568FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1324B1811DA2362900568FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1324B1861DA2362900568FE5 /* GottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324B18A1DA2362900568FE5 /* GottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GottoTests.swift; sourceTree = "<group>"; };
+		1324B18C1DA2362900568FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1324B1911DA2362900568FE5 /* GottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324B1951DA2362900568FE5 /* GottoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GottoUITests.swift; sourceTree = "<group>"; };
+		1324B1971DA2362900568FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1324B1B11DA2416900568FE5 /* BoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardingViewController.swift; sourceTree = "<group>"; };
+		1324B1B31DA245D900568FE5 /* GottoEclipseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GottoEclipseButton.swift; sourceTree = "<group>"; };
+		1324B1B81DA2602500568FE5 /* ChoiceRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceRegistrationViewController.swift; sourceTree = "<group>"; };
+		1324B1BA1DA261E500568FE5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1324B1BC1DA2833B00568FE5 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		1324B1BE1DA35D0F00568FE5 /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		1324B1C01DA3977500568FE5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1324B1C61DA3BA2900568FE5 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		1324B1CB1DA4A4F000568FE5 /* const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		1324B1CD1DA4A58A00568FE5 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1324B1D21DA4B79F00568FE5 /* TextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWithIcon.swift; sourceTree = "<group>"; };
+		132E77C91DAB982D00B1D9A9 /* App.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = App.storyboard; sourceTree = "<group>"; };
+		133B128E1DAF2FE8003422CC /* ItineraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryViewController.swift; sourceTree = "<group>"; };
+		133B12931DAF6BCD003422CC /* ItineraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
+		135085261DA7AF050068FADD /* Flags.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Flags.xcassets; sourceTree = "<group>"; };
+		135085281DA7AFBA0068FADD /* CountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
+		135085291DA7AFBA0068FADD /* CountryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		1350852A1DA7AFBA0068FADD /* CountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryView.xib; sourceTree = "<group>"; };
+		1368A04F1DAB42F20085C6F2 /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
+		1368A0561DAB71520085C6F2 /* VerifyCodeText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCodeText.swift; sourceTree = "<group>"; };
+		139209B51DA66A190071FC38 /* VerifyNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyNumberViewController.swift; sourceTree = "<group>"; };
+		139209B71DA66E8D0071FC38 /* GottoLabelWithLineSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GottoLabelWithLineSpacing.swift; sourceTree = "<group>"; };
+		139209BB1DA75E5C0071FC38 /* ViewWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithBorder.swift; sourceTree = "<group>"; };
+		1397B5711DAB9E6E008359D1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1397B5731DAB9E9B008359D1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1397B5751DAB9EAA008359D1 /* AroundMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AroundMeViewController.swift; sourceTree = "<group>"; };
+		1397B5771DABB6BF008359D1 /* ListRegionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRegionViewController.swift; sourceTree = "<group>"; };
+		1397B57A1DACC3D8008359D1 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1397B57D1DACF4F9008359D1 /* ListRegionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRegionTableViewCell.swift; sourceTree = "<group>"; };
+		1397B5811DADDE0E008359D1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1397B5831DAE13E3008359D1 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		1397E75C1DA50555007D371C /* SwiftIconFont.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftIconFont.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Gotto-edrdqwotmvcnmnfrfgsojcykaquz/Build/Products/Debug-iphonesimulator/SwiftIconFont/SwiftIconFont.framework"; sourceTree = "<group>"; };
+		1397E7601DA5137C007D371C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1397E7671DA5F685007D371C /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		1397E7681DA5F685007D371C /* GothamRounded-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BoldItalic.otf"; sourceTree = "<group>"; };
+		1397E7691DA5F685007D371C /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		1397E76A1DA5F685007D371C /* GothamRounded-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BookItalic.otf"; sourceTree = "<group>"; };
+		1397E76B1DA5F685007D371C /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		1397E76C1DA5F685007D371C /* GothamRounded-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-LightItalic.otf"; sourceTree = "<group>"; };
+		1397E76D1DA5F685007D371C /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		1397E76E1DA5F685007D371C /* GothamRounded-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-MediumItalic.otf"; sourceTree = "<group>"; };
+		1397E76F1DA5F685007D371C /* GothamRoundedBold_21016.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBold_21016.ttf; sourceTree = "<group>"; };
+		1397E7701DA5F685007D371C /* GothamRoundedLight_21020.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedLight_21020.ttf; sourceTree = "<group>"; };
+		1397E7711DA5F685007D371C /* GothamRoundedMedium_21022.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedMedium_21022.ttf; sourceTree = "<group>"; };
+		13A539CA1DA639050032AE13 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		5CEE1B12340B899960DF75A4 /* Pods_Gotto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gotto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF827D8A93B8A0CDE57FFD31 /* Pods-Gotto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gotto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gotto/Pods-Gotto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1324B16C1DA2362800568FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F1AF414A3F5B566A22EAFE /* Pods_Gotto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1324B1831DA2362900568FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1324B18E1DA2362900568FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1323E3C51DB75F3E00D31488 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3FD1DB8F96200D31488 /* FilterVineyard */,
+				1323E3CE1DB75FC300D31488 /* AroundMe */,
+				1323E3C61DB75F4900D31488 /* Boarding */,
+				1323E3C71DB75F5800D31488 /* ChoiceRegistration */,
+				1323E3CD1DB75FB900D31488 /* Home */,
+				1323E3D21DB75FEC00D31488 /* Itinerary */,
+				1323E3D31DB75FF400D31488 /* ItineraryDetail */,
+				1323E3D51DB7615B00D31488 /* ListProvince */,
+				1323E3CF1DB75FCD00D31488 /* ListRegion */,
+				1323E3DA1DB7644E00D31488 /* ListVineyard */,
+				1323E3D11DB75FE300D31488 /* MyProfile */,
+				1323E3D01DB75FDB00D31488 /* Profile */,
+				1323E3D41DB7600100D31488 /* SetLocation */,
+				1323E3C91DB75F7200D31488 /* SignIn */,
+				1323E3C81DB75F6700D31488 /* SignUp */,
+				1323E3CC1DB75FA600D31488 /* TabBar */,
+				1323E3CB1DB75F8900D31488 /* VerifyCode */,
+				1323E3CA1DB75F7C00D31488 /* VerifyNumber */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		1323E3C61DB75F4900D31488 /* Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				1324B1B11DA2416900568FE5 /* BoardingViewController.swift */,
+			);
+			name = Boarding;
+			sourceTree = "<group>";
+		};
+		1323E3C71DB75F5800D31488 /* ChoiceRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				1324B1B81DA2602500568FE5 /* ChoiceRegistrationViewController.swift */,
+			);
+			name = ChoiceRegistration;
+			sourceTree = "<group>";
+		};
+		1323E3C81DB75F6700D31488 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1324B1C01DA3977500568FE5 /* SignUpViewController.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		1323E3C91DB75F7200D31488 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1397E7601DA5137C007D371C /* SignInViewController.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		1323E3CA1DB75F7C00D31488 /* VerifyNumber */ = {
+			isa = PBXGroup;
+			children = (
+				139209B51DA66A190071FC38 /* VerifyNumberViewController.swift */,
+				1323E3E31DB7678500D31488 /* VerifyNumberViewController+Delegate.swift */,
+			);
+			name = VerifyNumber;
+			sourceTree = "<group>";
+		};
+		1323E3CB1DB75F8900D31488 /* VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				1368A04F1DAB42F20085C6F2 /* VerifyCodeViewController.swift */,
+				1323E3E11DB7674500D31488 /* VerifyCodeViewController+Delegate.swift */,
+			);
+			name = VerifyCode;
+			sourceTree = "<group>";
+		};
+		1323E3CC1DB75FA600D31488 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1397B5711DAB9E6E008359D1 /* TabBarViewController.swift */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		1323E3CD1DB75FB900D31488 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1397B57A1DACC3D8008359D1 /* HomeCollectionViewCell.swift */,
+				1397B5731DAB9E9B008359D1 /* HomeViewController.swift */,
+				1323E3E51DB767D300D31488 /* HomeViewController+DataSource.swift */,
+				1323E3E71DB7680400D31488 /* HomeViewController+Delegate.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1323E3CE1DB75FC300D31488 /* AroundMe */ = {
+			isa = PBXGroup;
+			children = (
+				1397B5751DAB9EAA008359D1 /* AroundMeViewController.swift */,
+			);
+			name = AroundMe;
+			sourceTree = "<group>";
+		};
+		1323E3CF1DB75FCD00D31488 /* ListRegion */ = {
+			isa = PBXGroup;
+			children = (
+				1397B57D1DACF4F9008359D1 /* ListRegionTableViewCell.swift */,
+				1397B5771DABB6BF008359D1 /* ListRegionViewController.swift */,
+				1323E3DD1DB766A200D31488 /* ListRegionViewController+DataSource.swift */,
+				1323E3DF1DB766DD00D31488 /* ListRegionViewController+Delegate.swift */,
+			);
+			name = ListRegion;
+			sourceTree = "<group>";
+		};
+		1323E3D01DB75FDB00D31488 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1397B5811DADDE0E008359D1 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		1323E3D11DB75FE300D31488 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				1397B5831DAE13E3008359D1 /* MyProfileViewController.swift */,
+			);
+			name = MyProfile;
+			sourceTree = "<group>";
+		};
+		1323E3D21DB75FEC00D31488 /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3BF1DB0EBBD00D31488 /* ItineraryCollectionViewCell.swift */,
+				133B128E1DAF2FE8003422CC /* ItineraryViewController.swift */,
+				1323E3E91DB7687E00D31488 /* ItineraryViewController+DataSource.swift */,
+				1323E3EB1DB7688C00D31488 /* ItineraryViewController+Delegate.swift */,
+			);
+			name = Itinerary;
+			sourceTree = "<group>";
+		};
+		1323E3D31DB75FF400D31488 /* ItineraryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3C11DB5DB1500D31488 /* ItineraryDetailViewController.swift */,
+			);
+			name = ItineraryDetail;
+			sourceTree = "<group>";
+		};
+		1323E3D41DB7600100D31488 /* SetLocation */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3C31DB6288800D31488 /* SetLocationViewController.swift */,
+				1323E3ED1DB768D800D31488 /* SetLocationViewController+Delegate.swift */,
+			);
+			name = SetLocation;
+			sourceTree = "<group>";
+		};
+		1323E3D51DB7615B00D31488 /* ListProvince */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3D81DB761D500D31488 /* ListProvinceTableViewCell.swift */,
+				1323E3D61DB7617400D31488 /* ListProvinceViewController.swift */,
+				1323E3EF1DB76BAA00D31488 /* ListProvinceViewController+DataSource.swift */,
+				1323E3F11DB76BBB00D31488 /* ListProvinceViewController+Delegate.swift */,
+			);
+			name = ListProvince;
+			sourceTree = "<group>";
+		};
+		1323E3DA1DB7644E00D31488 /* ListVineyard */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3F91DB7868200D31488 /* ListVineyardCollectionViewCell.swift */,
+				1323E3DB1DB7646400D31488 /* ListVineyardViewController.swift */,
+				1323E3F31DB7768900D31488 /* ListVineyardViewController+DataSource.swift */,
+				1323E3F51DB776A000D31488 /* ListVineyardViewController+Delegate.swift */,
+			);
+			name = ListVineyard;
+			sourceTree = "<group>";
+		};
+		1323E3FD1DB8F96200D31488 /* FilterVineyard */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3FE1DB8F98700D31488 /* FilterVineyardViewController.swift */,
+			);
+			name = FilterVineyard;
+			sourceTree = "<group>";
+		};
+		1324B1661DA2362800568FE5 = {
+			isa = PBXGroup;
+			children = (
+				1324B1711DA2362800568FE5 /* Gotto */,
+				1324B1891DA2362900568FE5 /* GottoTests */,
+				1324B1941DA2362900568FE5 /* GottoUITests */,
+				1324B1701DA2362800568FE5 /* Products */,
+				D5572D24A27685B68A2568C4 /* Pods */,
+				A0F1FEADD2EF06D9B7A1B3C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1324B1701DA2362800568FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1324B16F1DA2362800568FE5 /* Gotto.app */,
+				1324B1861DA2362900568FE5 /* GottoTests.xctest */,
+				1324B1911DA2362900568FE5 /* GottoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1324B1711DA2362800568FE5 /* Gotto */ = {
+			isa = PBXGroup;
+			children = (
+				1397E7621DA5F608007D371C /* Resources */,
+				1324B1B51DA253D500568FE5 /* Extensions */,
+				1324B1AC1DA23FBA00568FE5 /* Custom */,
+				1324B1A91DA23F8500568FE5 /* UI */,
+				1324B1A81DA23F7300568FE5 /* Data */,
+				1324B1A71DA23F5700568FE5 /* Supporting files */,
+			);
+			path = Gotto;
+			sourceTree = "<group>";
+		};
+		1324B1891DA2362900568FE5 /* GottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1324B18A1DA2362900568FE5 /* GottoTests.swift */,
+				1324B18C1DA2362900568FE5 /* Info.plist */,
+			);
+			path = GottoTests;
+			sourceTree = "<group>";
+		};
+		1324B1941DA2362900568FE5 /* GottoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1324B1951DA2362900568FE5 /* GottoUITests.swift */,
+				1324B1971DA2362900568FE5 /* Info.plist */,
+			);
+			path = GottoUITests;
+			sourceTree = "<group>";
+		};
+		1324B1A71DA23F5700568FE5 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				1324B1721DA2362800568FE5 /* AppDelegate.swift */,
+				1324B1811DA2362900568FE5 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		1324B1A81DA23F7300568FE5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				133B12921DAF6BB7003422CC /* Models */,
+				1324B1791DA2362900568FE5 /* Gotto.xcdatamodeld */,
+				1324B1CB1DA4A4F000568FE5 /* const.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		1324B1A91DA23F8500568FE5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1323E3C51DB75F3E00D31488 /* Components */,
+				1324B1AB1DA23F9600568FE5 /* Storyboards */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1324B1AB1DA23F9600568FE5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1324B17E1DA2362900568FE5 /* LaunchScreen.storyboard */,
+				1324B1761DA2362900568FE5 /* Main.storyboard */,
+				132E77C91DAB982D00B1D9A9 /* App.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1324B1AC1DA23FBA00568FE5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				135085191DA7A5080068FADD /* CustomView */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		1324B1B51DA253D500568FE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13A539C91DA638EB0032AE13 /* Services */,
+				1324B1BA1DA261E500568FE5 /* UIView.swift */,
+				1324B1BC1DA2833B00568FE5 /* UIViewController.swift */,
+				1324B1BE1DA35D0F00568FE5 /* CALayer.swift */,
+				1324B1C61DA3BA2900568FE5 /* UITextField.swift */,
+				1324B1CD1DA4A58A00568FE5 /* UIColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		133B12921DAF6BB7003422CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				133B12931DAF6BCD003422CC /* ItineraryModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		135085181DA7A4050068FADD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1324B17C1DA2362900568FE5 /* Assets.xcassets */,
+				135085261DA7AF050068FADD /* Flags.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		135085191DA7A5080068FADD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				135085251DA7AEE90068FADD /* CountryPicker */,
+				139209BB1DA75E5C0071FC38 /* ViewWithBorder.swift */,
+				139209B71DA66E8D0071FC38 /* GottoLabelWithLineSpacing.swift */,
+				1324B1B31DA245D900568FE5 /* GottoEclipseButton.swift */,
+				1324B1D21DA4B79F00568FE5 /* TextFieldWithIcon.swift */,
+				1368A0561DAB71520085C6F2 /* VerifyCodeText.swift */,
+				1323E3F71DB7795C00D31488 /* RatingControl.swift */,
+				1323E3FB1DB8C64F00D31488 /* LabelPrice.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		135085251DA7AEE90068FADD /* CountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				135085281DA7AFBA0068FADD /* CountryPicker.swift */,
+				135085291DA7AFBA0068FADD /* CountryView.swift */,
+				1350852A1DA7AFBA0068FADD /* CountryView.xib */,
+			);
+			name = CountryPicker;
+			sourceTree = "<group>";
+		};
+		1397E7621DA5F608007D371C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				135085181DA7A4050068FADD /* Assets */,
+				1397E7631DA5F612007D371C /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1397E7631DA5F612007D371C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1397E7661DA5F663007D371C /* Gotham Rounded */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		1397E7661DA5F663007D371C /* Gotham Rounded */ = {
+			isa = PBXGroup;
+			children = (
+				1397E7671DA5F685007D371C /* GothamRounded-Bold.otf */,
+				1397E7681DA5F685007D371C /* GothamRounded-BoldItalic.otf */,
+				1397E7691DA5F685007D371C /* GothamRounded-Book.otf */,
+				1397E76A1DA5F685007D371C /* GothamRounded-BookItalic.otf */,
+				1397E76B1DA5F685007D371C /* GothamRounded-Light.otf */,
+				1397E76C1DA5F685007D371C /* GothamRounded-LightItalic.otf */,
+				1397E76D1DA5F685007D371C /* GothamRounded-Medium.otf */,
+				1397E76E1DA5F685007D371C /* GothamRounded-MediumItalic.otf */,
+				1397E76F1DA5F685007D371C /* GothamRoundedBold_21016.ttf */,
+				1397E7701DA5F685007D371C /* GothamRoundedLight_21020.ttf */,
+				1397E7711DA5F685007D371C /* GothamRoundedMedium_21022.ttf */,
+			);
+			name = "Gotham Rounded";
+			sourceTree = "<group>";
+		};
+		13A539C91DA638EB0032AE13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13A539CA1DA639050032AE13 /* Util.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A0F1FEADD2EF06D9B7A1B3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1397E75C1DA50555007D371C /* SwiftIconFont.framework */,
+				5CEE1B12340B899960DF75A4 /* Pods_Gotto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5572D24A27685B68A2568C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF827D8A93B8A0CDE57FFD31 /* Pods-Gotto.debug.xcconfig */,
+				12BB9BF025CDD9281196E76A /* Pods-Gotto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1324B16E1DA2362800568FE5 /* Gotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1324B19A1DA2362900568FE5 /* Build configuration list for PBXNativeTarget "Gotto" */;
+			buildPhases = (
+				C2227A8EE83FBE5BCE5CC3B6 /* [CP] Check Pods Manifest.lock */,
+				1324B16B1DA2362800568FE5 /* Sources */,
+				1324B16C1DA2362800568FE5 /* Frameworks */,
+				1324B16D1DA2362800568FE5 /* Resources */,
+				D4FD1EFB62F6CCF2E19D44EA /* [CP] Embed Pods Frameworks */,
+				9578579415EA8217B3139854 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gotto;
+			productName = Gotto;
+			productReference = 1324B16F1DA2362800568FE5 /* Gotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1324B1851DA2362900568FE5 /* GottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1324B19D1DA2362900568FE5 /* Build configuration list for PBXNativeTarget "GottoTests" */;
+			buildPhases = (
+				1324B1821DA2362900568FE5 /* Sources */,
+				1324B1831DA2362900568FE5 /* Frameworks */,
+				1324B1841DA2362900568FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1324B1881DA2362900568FE5 /* PBXTargetDependency */,
+			);
+			name = GottoTests;
+			productName = GottoTests;
+			productReference = 1324B1861DA2362900568FE5 /* GottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1324B1901DA2362900568FE5 /* GottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1324B1A01DA2362900568FE5 /* Build configuration list for PBXNativeTarget "GottoUITests" */;
+			buildPhases = (
+				1324B18D1DA2362900568FE5 /* Sources */,
+				1324B18E1DA2362900568FE5 /* Frameworks */,
+				1324B18F1DA2362900568FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1324B1931DA2362900568FE5 /* PBXTargetDependency */,
+			);
+			name = GottoUITests;
+			productName = GottoUITests;
+			productReference = 1324B1911DA2362900568FE5 /* GottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1324B1671DA2362800568FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JANETO;
+				TargetAttributes = {
+					1324B16E1DA2362800568FE5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7EVA8E735;
+					};
+					1324B1851DA2362900568FE5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1324B16E1DA2362800568FE5;
+					};
+					1324B1901DA2362900568FE5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1324B16E1DA2362800568FE5;
+					};
+				};
+			};
+			buildConfigurationList = 1324B16A1DA2362800568FE5 /* Build configuration list for PBXProject "Gotto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1324B1661DA2362800568FE5;
+			productRefGroup = 1324B1701DA2362800568FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1324B16E1DA2362800568FE5 /* Gotto */,
+				1324B1851DA2362900568FE5 /* GottoTests */,
+				1324B1901DA2362900568FE5 /* GottoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1324B16D1DA2362800568FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1397E7721DA5F791007D371C /* GothamRounded-Bold.otf in Resources */,
+				1397E7731DA5F791007D371C /* GothamRounded-BoldItalic.otf in Resources */,
+				1397E7741DA5F791007D371C /* GothamRounded-Book.otf in Resources */,
+				1397E7751DA5F791007D371C /* GothamRounded-BookItalic.otf in Resources */,
+				132E77CA1DAB982D00B1D9A9 /* App.storyboard in Resources */,
+				1397E7761DA5F791007D371C /* GothamRounded-Light.otf in Resources */,
+				1397E7771DA5F791007D371C /* GothamRounded-LightItalic.otf in Resources */,
+				1397E7781DA5F791007D371C /* GothamRounded-Medium.otf in Resources */,
+				1350852D1DA7AFBA0068FADD /* CountryView.xib in Resources */,
+				135085271DA7AF050068FADD /* Flags.xcassets in Resources */,
+				1397E7791DA5F791007D371C /* GothamRounded-MediumItalic.otf in Resources */,
+				1324B1801DA2362900568FE5 /* LaunchScreen.storyboard in Resources */,
+				1324B17D1DA2362900568FE5 /* Assets.xcassets in Resources */,
+				1324B1781DA2362900568FE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1324B1841DA2362900568FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1324B18F1DA2362900568FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9578579415EA8217B3139854 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gotto/Pods-Gotto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2227A8EE83FBE5BCE5CC3B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FD1EFB62F6CCF2E19D44EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gotto/Pods-Gotto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1324B16B1DA2362800568FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323E3C01DB0EBBD00D31488 /* ItineraryCollectionViewCell.swift in Sources */,
+				1323E3E41DB7678500D31488 /* VerifyNumberViewController+Delegate.swift in Sources */,
+				1397B57B1DACC3D8008359D1 /* HomeCollectionViewCell.swift in Sources */,
+				13A539CB1DA639050032AE13 /* Util.swift in Sources */,
+				1323E3FA1DB7868200D31488 /* ListVineyardCollectionViewCell.swift in Sources */,
+				1324B1CC1DA4A4F000568FE5 /* const.swift in Sources */,
+				1350852B1DA7AFBA0068FADD /* CountryPicker.swift in Sources */,
+				133B128F1DAF2FE8003422CC /* ItineraryViewController.swift in Sources */,
+				1323E3C21DB5DB1500D31488 /* ItineraryDetailViewController.swift in Sources */,
+				1323E3E81DB7680400D31488 /* HomeViewController+Delegate.swift in Sources */,
+				1324B1CE1DA4A58A00568FE5 /* UIColor.swift in Sources */,
+				1397B5761DAB9EAA008359D1 /* AroundMeViewController.swift in Sources */,
+				1324B1BD1DA2833B00568FE5 /* UIViewController.swift in Sources */,
+				1323E3EA1DB7687E00D31488 /* ItineraryViewController+DataSource.swift in Sources */,
+				1323E3FC1DB8C64F00D31488 /* LabelPrice.swift in Sources */,
+				1324B1BF1DA35D0F00568FE5 /* CALayer.swift in Sources */,
+				1323E3F81DB7795C00D31488 /* RatingControl.swift in Sources */,
+				1323E3F61DB776A000D31488 /* ListVineyardViewController+Delegate.swift in Sources */,
+				1324B1D31DA4B79F00568FE5 /* TextFieldWithIcon.swift in Sources */,
+				1397B57E1DACF4F9008359D1 /* ListRegionTableViewCell.swift in Sources */,
+				1324B1B91DA2602500568FE5 /* ChoiceRegistrationViewController.swift in Sources */,
+				1323E3E61DB767D300D31488 /* HomeViewController+DataSource.swift in Sources */,
+				133B12941DAF6BCD003422CC /* ItineraryModel.swift in Sources */,
+				1397B5821DADDE0E008359D1 /* ProfileViewController.swift in Sources */,
+				1397B5721DAB9E6E008359D1 /* TabBarViewController.swift in Sources */,
+				1397B5841DAE13E3008359D1 /* MyProfileViewController.swift in Sources */,
+				1323E3FF1DB8F98700D31488 /* FilterVineyardViewController.swift in Sources */,
+				1323E3E21DB7674500D31488 /* VerifyCodeViewController+Delegate.swift in Sources */,
+				139209B81DA66E8D0071FC38 /* GottoLabelWithLineSpacing.swift in Sources */,
+				139209BC1DA75E5C0071FC38 /* ViewWithBorder.swift in Sources */,
+				1324B1C71DA3BA2900568FE5 /* UITextField.swift in Sources */,
+				1323E3F41DB7768900D31488 /* ListVineyardViewController+DataSource.swift in Sources */,
+				1397B5781DABB6BF008359D1 /* ListRegionViewController.swift in Sources */,
+				1323E3D91DB761D500D31488 /* ListProvinceTableViewCell.swift in Sources */,
+				1397B5741DAB9E9B008359D1 /* HomeViewController.swift in Sources */,
+				1323E3F01DB76BAA00D31488 /* ListProvinceViewController+DataSource.swift in Sources */,
+				1323E3EC1DB7688C00D31488 /* ItineraryViewController+Delegate.swift in Sources */,
+				1324B1B21DA2416900568FE5 /* BoardingViewController.swift in Sources */,
+				1368A0571DAB71520085C6F2 /* VerifyCodeText.swift in Sources */,
+				1324B1BB1DA261E500568FE5 /* UIView.swift in Sources */,
+				1324B1B41DA245D900568FE5 /* GottoEclipseButton.swift in Sources */,
+				1368A0501DAB42F20085C6F2 /* VerifyCodeViewController.swift in Sources */,
+				1323E3F21DB76BBB00D31488 /* ListProvinceViewController+Delegate.swift in Sources */,
+				1323E3DC1DB7646400D31488 /* ListVineyardViewController.swift in Sources */,
+				1324B1C11DA3977500568FE5 /* SignUpViewController.swift in Sources */,
+				1323E3E01DB766DD00D31488 /* ListRegionViewController+Delegate.swift in Sources */,
+				1397E7611DA5137C007D371C /* SignInViewController.swift in Sources */,
+				1323E3DE1DB766A200D31488 /* ListRegionViewController+DataSource.swift in Sources */,
+				139209B61DA66A190071FC38 /* VerifyNumberViewController.swift in Sources */,
+				1350852C1DA7AFBA0068FADD /* CountryView.swift in Sources */,
+				1324B1731DA2362800568FE5 /* AppDelegate.swift in Sources */,
+				1323E3C41DB6288800D31488 /* SetLocationViewController.swift in Sources */,
+				1323E3EE1DB768D800D31488 /* SetLocationViewController+Delegate.swift in Sources */,
+				1324B17B1DA2362900568FE5 /* Gotto.xcdatamodeld in Sources */,
+				1323E3D71DB7617400D31488 /* ListProvinceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1324B1821DA2362900568FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1324B18B1DA2362900568FE5 /* GottoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1324B18D1DA2362900568FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1324B1961DA2362900568FE5 /* GottoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1324B1881DA2362900568FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1324B16E1DA2362800568FE5 /* Gotto */;
+			targetProxy = 1324B1871DA2362900568FE5 /* PBXContainerItemProxy */;
+		};
+		1324B1931DA2362900568FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1324B16E1DA2362800568FE5 /* Gotto */;
+			targetProxy = 1324B1921DA2362900568FE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1324B1761DA2362900568FE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1324B1771DA2362900568FE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1324B17E1DA2362900568FE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1324B17F1DA2362900568FE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1324B1981DA2362900568FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1324B1991DA2362900568FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1324B19B1DA2362900568FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF827D8A93B8A0CDE57FFD31 /* Pods-Gotto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Gotto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JANETO.Gotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1324B19C1DA2362900568FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BB9BF025CDD9281196E76A /* Pods-Gotto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Gotto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JANETO.Gotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1324B19E1DA2362900568FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GottoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JANETO.GottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gotto.app/Gotto";
+			};
+			name = Debug;
+		};
+		1324B19F1DA2362900568FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GottoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JANETO.GottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gotto.app/Gotto";
+			};
+			name = Release;
+		};
+		1324B1A11DA2362900568FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GottoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JANETO.GottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gotto;
+			};
+			name = Debug;
+		};
+		1324B1A21DA2362900568FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GottoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JANETO.GottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gotto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1324B16A1DA2362800568FE5 /* Build configuration list for PBXProject "Gotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1324B1981DA2362900568FE5 /* Debug */,
+				1324B1991DA2362900568FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1324B19A1DA2362900568FE5 /* Build configuration list for PBXNativeTarget "Gotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1324B19B1DA2362900568FE5 /* Debug */,
+				1324B19C1DA2362900568FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1324B19D1DA2362900568FE5 /* Build configuration list for PBXNativeTarget "GottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1324B19E1DA2362900568FE5 /* Debug */,
+				1324B19F1DA2362900568FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1324B1A01DA2362900568FE5 /* Build configuration list for PBXNativeTarget "GottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1324B1A11DA2362900568FE5 /* Debug */,
+				1324B1A21DA2362900568FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1324B1791DA2362900568FE5 /* Gotto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1324B17A1DA2362900568FE5 /* Gotto.xcdatamodel */,
+			);
+			currentVersion = 1324B17A1DA2362900568FE5 /* Gotto.xcdatamodel */;
+			path = Gotto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1324B1671DA2362800568FE5 /* Project object */;
+}
